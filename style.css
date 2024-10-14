@@ -1,107 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{  background-image: url(./img/fondo.jpg);
+    font-size: 32px;
+    line-height: 50%;
+}
 
-:root {
-    --colorFondo: #000000;
-    --colorDetalles: rgb(74, 68, 98);
-    --colorDetalles2:rgb(15, 89, 114) ;
-}
-* {
-    padding: 0;
-    margin: 0;
-}
 .logo {
-    margin-top: 20px;
-    width: 150px;
-    height: 50px;
-}
-body {
-    background-color: rgb(198, 200, 202);
+    padding-top: 5px;
+    margin-left: 5px;
+    width: 2%;
 }
 main {
     display: flex;
-    flex-direction: row;
+    margin-bottom: 50px;
+    margin-left: 80px;
 }
-.encriptador {
-    width: 50%;
-    margin: 100px 0px 0px 140px;
+.text-area {
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    height: 370px;
 }
-.encriptar {
-    border: 5px solid var(--colorDetalles);
-    border-radius: 6px;
-    width: 600px;
-    height: 300px;
-    font-size: 18px;
+::placeholder { color: #638cd8; }
+   .text-area:focus {
+    outline: none;
+   }
+.mensaje {
+    background: #0a3871;
+    background-image: url(./img/img\ candado\ \(4\).jpg);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    margin-left: 98px;
+    margin-top: 30px;
+    padding-left: 20px;
+    height: 600px;
+    position: fixed;
 }
-.texto-aviso {
-    width: 100%;
-    font-size: 15px;
-    color: grey;
+.mensaje:focus {
+    outline: none;
 }
-.encriptador-aviso {
+.botones {
     display: flex;
+    margin-top: 18px;
 }
 .btn-encriptar {
-    width: 300px;
-    height: 60px;
-    padding: 24px;
-    font-size: 18px;
-    border-radius: 8px;
-    background-color: var(--colorDetalles2);
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: rgb(81, 172, 200);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin: 10px;
 }
-.btn-desencriptar {
-    width: 300px;
-    height: 60px;
-    padding: 24px;
-    font-size: 18px;
-    border-radius: 8px;
-    background-color: grey;
+.btn-desencriptador {
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: rgb(81, 172, 200);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin: 10px;
 }
-
-.tarjeta {
-    width: 270px;
-    height: 500px;
-    box-shadow: 10px 24px 32px -8px ;
-    position: relative;
-    margin-top: 40px;
-    border-radius: 32px;
-    text-align: center;
-}
-.img-Desencriptador {
-    width: 250px;
-    height: 200px;
-    margin-top: 50px;
-}
-.texto-uno {
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-.texto-dos {
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.evaluar {
-    width: 100%;
-    height: 350px;
-    position: absolute;
-    padding: 20px;
-    background-color: transparent;
-    font-size: 24px;
-    border: none;
-    resize: none;
-
-}
-
 .btn-copiar {
-    width: 180px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 30px;
-    background-color: rgb(124, 192, 215);
+    border: 2px solid #0a3871;
+    border-radius: 24px;
+    color: rgb(81, 172, 200);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 210px;
+    position: absolute;
+    width: 328px;
+    margin-top: 540px;
+    background: transparent;
+}
+.informacion {
+    color: rgb(49, 47, 47);
+    font-size: 18px;
 }
 
-.copyright {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-}
