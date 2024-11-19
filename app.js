@@ -110,7 +110,6 @@ btnDesencriptar.addEventListener("click", e=>{
     }
 });
 
-//-------Boton de Copiar-------//
 btnCopiar.addEventListener("click", e=>{
     e.preventDefault();
     let copiar = respuesta;
